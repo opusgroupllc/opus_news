@@ -1,0 +1,46 @@
+<div class="jumbotron text-center">
+	<h1>Welcome to Opus!</h1>
+
+	<div ng-if="!main.loggedIn">
+		<p>Login to see manage your users.</p>
+		<a href="/login" class="btn btn-primary">Login</a>
+	</div>
+
+	<div ng-if="main.loggedIn">
+		<p>Manage your users.</p>
+		<a href="/users" class="btn btn-primary">View Users</a>
+	</div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="http://www.insperityinvitational.com/uploads/2013/03/medium/Insperity_logo_2013_256x142.png" alt="...">
+      <div class="caption">
+        <h3>Insperity</h3>
+        <p>Here is the insperty portal</p>
+        <p><a href="https://sso.insperity.com/SSOServer/PassiveSts.aspx?wa=wsignin1.0&wtrealm=urn%3asp.FatwireApplication&wreply=https://esc.insperity.com/home/index.html&wct=Mon%20Apr%2028%2013:29:44%20CDT%202014" class="btn btn-primary" role="button">Site</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="http://img4.wikia.nocookie.net/__cb20130623203215/onceuponatime8042/images/3/3d/IconTime.png" alt="...">
+      <div class="caption">
+        <h3>TimeSheets</h3>
+        <p>Here is the DelTek portal</p>
+        <p><a href="https://teprod05.deltekfirstessentials.com/DeltekTC/welcome.msv" class="btn btn-primary" role="button">Site</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+   <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="/assets/images/opusLogo.png" alt="...">
+      <div class="caption">
+        <h3>Opus Slack Page</h3>
+        <p>Here is the Opus Slack portal</p>
+        <p><a href="https://opusgroupllc.slack.com/" class="btn btn-primary" role="button">Site</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
