@@ -62,3 +62,25 @@ header .navbar 		{
 	from 	{ -moz-transform:rotate(0deg); }	
 	to 	{ -moz-transform:rotate(360deg); }
 }
+
+
+
+.thumbnail{
+	border:0px;
+	margin-bottom: 20px;
+
+}
+
+.deltek{
+	margin-top:50px;
+}
+
+
+.thumbnail:hover{
+
+
+}
+
+.row{
+	margin-bottom:15px;
+}
